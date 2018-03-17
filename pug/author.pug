@@ -1,0 +1,50 @@
+#author
+    .author_title
+        h3 О тренере
+    .container
+        .author_container
+            img(src="img/sheila_about.jpg", alt="Шейла Маркина")
+            .author_about
+                h4 Шейла Маркина
+                p Родилась в священных землях Индии и впитала в себя традиции и верования тех мест. Это дало ей прочный фундамент для дальнейшего развития. Сейчас она широко известна как:
+                ul.about_list
+                    li Женский тренер. Основатель психологического центра  «Создаем самое ценное»
+                    li Автор трансформирующих женских тренингов
+                    li Сертифицированный терапевт РПТ(терапия отправных точек), работающая с травмами рода, семейной системой, кармическими блоками
+                    li Сертифицированный  коуч и психолог - Мастер кармических расстановок
+        h5 О творческой деятельности Шейлы Маркиной лучше всего скажет сухой язык цифр:
+        .about_numbers
+            mixin number(h6, num, p)
+                .about_number
+                    h6= h6
+                    p.num= num
+                    p.last= p
+            +number('Психологической и терапевтической практики более','6','лет')
+            +number('Помогла достичь желаемого','2000+','женщинам')
+            +number('Провела семинаров и тренингов','8','онлайн')
+            +number('Спасла, и это не преувеличение, действительно спасла','1000','душ')
+        h5 Сертификаты, дипломы и регалии тренера:
+        .serts_container
+            .sert_single
+                a(href="img/cert_1.jpg" data-fancybox="certs")
+                    img(src="img/cert_1_min.png", alt="Сертификат ")
+            .sert_single
+                a(href="img/cert_2.jpg" data-fancybox="certs")
+                    img(src="img/cert_2_min.png", alt="Сертификат 2")
+            .sert_single
+                a(href="img/cert_3.jpg" data-fancybox="certs")
+                    img(src="img/cert_3_min.png", alt="Сертификат 3")
+            .sert_single
+                a(href="img/cert_4.jpg" data-fancybox="certs")
+                    img(src="img/cert_4_min.png", alt="Сертификат 4")
+            .sert_single
+                a(href="img/cert_5.jpg" data-fancybox="certs")
+                    img(src="img/cert_5_min.png", alt="Сертификат 5")
+            .sert_single
+                a(href="img/cert_6.jpg" data-fancybox="certs")
+                    img(src="img/cert_6_min.png", alt="Сертификат 6")
+            .sert_single
+                a(href="img/cert_7.jpg" data-fancybox="certs")
+                    img(src="img/cert_7_min.png", alt="Сертификат 7")
+        a.button(href="/awareness/partnership") Партнерская программа
+
