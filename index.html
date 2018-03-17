@@ -234,7 +234,39 @@
           <button class="button">Записаться</button>
         </div>
       </div>
-    </section><!--BEGIN JIVOSITE CODE-->
+    </section>
+    <section id="author_and_response"></section>
+    <footer id="footer">
+      <div class="continer">
+        <p>ИП Кудряшов Александр Анатольевич г. Москва, Новокуркинское шоссе, 27 ИНН 720410077658 ОГРН 315723200065100 </p><a id="conditions" href="http://mastervision.su/oferta.docx">Условия возврата денежных средств</a>
+      </div>
+    </footer>
+    <div class="modal fade" tabindex="-1" role="dialog" id="myModalForm">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <div class="modal-body">
+            <form class="form_newsletter" id="modalForm" action="https://aleksandrkudryashov1.autoweboffice.ru/?r=personal/newsletter/sub/add&amp;id=3568&amp;lg=ru" method="post" enctype="application/x-www-form-urlencoded" accept-charset="UTF-8" target="results">
+              <h4 class="infront">Запишись сейчас и получи бонус!</h4>
+              <p class="infront_submit hide"></p>
+              <p class="infront">«Законы счастья»</p>
+              <p class="span_phone hide"></p>
+              <div class="email-block">
+                <input type="hidden" value="1" name="required_fields[email]"/>
+                <input class="mail required" maxlength="255" name="Contact[email]" type="text" placeholder="Ваш email"/>
+              </div>
+              <div class="phone-block hide">
+                <input type="hidden" value="0" name="required_fields[phone_number]"/>
+                <input class="phone" maxlength="255" name="Contact[phone_number]" type="number" placeholder="79333333333"/>
+              </div>
+              <button class="button" type="submit">Записаться</button><!--Обязательный параметр. Не удалять и не изменять!-->
+              <input type="hidden" value="320" name="Contact[id_newsletter]"/><!--API код канала рекламы-->
+              <input type="hidden" value="0" name="Contact[id_advertising_channel_page]"/>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div><!--BEGIN JIVOSITE CODE-->
     <!--script| (function() {var widget_id = 'cMdj5UfoZX';var s = document.createElement('script');s.type = 'text/javascript';s.async = true;s.src = '//code.jivosite.com/script/widget/' + widget_id;var ss = document.getElementsByTagName('script')[0];ss.parentNode.insertBefore(s, ss);})();
     --><!--END JIVOSITE CODE-->
     <iframe name="results" style="display:none;"></iframe>
